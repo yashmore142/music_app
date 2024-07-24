@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MusicApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">#272424</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background_</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">10dp</item>
+
+    </style>
+
+    <style name="Theme.MusicApp" parent="Base.Theme.MusicApp" />
+</resources>
